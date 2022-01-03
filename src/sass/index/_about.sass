@@ -1,0 +1,77 @@
+.about
+    position: relative
+    height: 829px;
+    background-color: #F9F8EE 
+    padding-bottom: 100px
+    &_content_desctop
+        display: flex
+        flex-wrap: wrap
+        h2   
+            margin-top: 40px
+        h3 
+            margin-top: 20px
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 33px;
+    &_desctop_photo
+        display: inline-block
+        margin-top: 74px
+        width: 525.49px;
+        height: 616.15px;    
+        background: url('../img/main photo 2.png') center center / 100% 100% no-repeat
+    &_desctop_text
+        margin-top: 60px
+        margin-left: 107px
+        display: block
+        width: 600px
+    
+    &_desctop_wrapperBtn
+        margin-top: 40px
+        cursor: pointer
+        width: 395px;
+        height: 86px;
+        background: url('../img/btn/aboutBtnstill.png') left top / cover no-repeat
+        &:hover 
+            transition: 0.5s all  
+            width: 395px;
+            box-shadow: -10px -10px 10px rgba(175, 193, 226, 0.5);
+            background: url('../img/btn/aboutBtnActive.png') left top / cover no-repeat        
+    &_desctop_name_btn
+        display: block
+        position: relative
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center
+        padding-top: 20px
+    &_content_tablet
+        display: none
+    
+
+   
+    &_decor
+        position: absolute
+        width: 270px;
+        height: 260.81px;
+        background: url('../img/mainPageDecor3.png') center center / 100% 100% no-repeat
+        top: 1784px
+        left: 200px
+        @keyframes decor 
+            0%
+                transform: rotate(0deg)
+            100%
+                transform: rotate(360deg)
+        &:hover
+            
+            cursor: pointer
+            animation-name: decor
+            animation-duration: 2s
+            animation-play-state: running
+            
+                    
+            
+        

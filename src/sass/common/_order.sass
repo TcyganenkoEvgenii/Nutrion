@@ -1,0 +1,124 @@
+=formDesign
+    &_wrapper
+        display: block
+        position: relative
+        margin-bottom: 60px
+        cursor: pointer
+        width: 560px
+        height: 55px
+    &_form
+        position: relative
+        background-color: rgba(0, 0, 0, 0)
+        width: 560px
+        height: 55px
+        border: 1px solid #3F414E;
+        box-sizing: border-box;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        padding-left: 10px
+        z-index: 2
+    &_shadow
+        position: relative
+        top: -45px
+        left: 10px
+        width: 560px
+        height: 55px
+        background-color: rgba(227, 237, 200, 0.4)
+        z-index: 1   
+    &_descr
+        margin-top: 10px
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 32px;
+
+
+
+.order
+    display: none
+    position: fixed
+    overflow: auto
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    background-color: rgba(0, 0, 0, .52)
+    z-index: 3
+    &_window
+        display: flex
+        flex-direction: column
+        padding: 20px 20px 60px 50px
+        max-width: 671px
+        height: 1009px
+        background-color: #FFFFFF
+        margin: auto
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.4);
+    &_closeBtn
+        display: block
+        align-self: flex-end
+        width: 38px
+        height: 38px
+        background: url('../icon/closegreen.png') center center/ cover no-repeat
+        transition: 0.5s all
+        cursor: pointer
+        &:hover
+           transform: scale(110%) 
+           background: url('../icon/closegreenActive.png') center center/ cover no-repeat
+    &_title
+        margin-top: 6px
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 66px;
+    &_subtitle
+        margin-top: 20px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 44px;
+    &_wrapper
+        width: 571px
+        height: 341px 
+    &_name, &_tel, &_mail
+        +formDesign
+    &_agree
+        margin-top: 30px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        span
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-decoration-line: underline;
+    &_wrapperBtn
+        margin-top: 30px
+        margin-left: 330px
+        cursor: pointer
+        width: 241px;
+        height: 80px;
+        background: url('../img/btn/payBtnstill.png') left top / cover no-repeat
+        &:hover 
+            transition: 0.5s all  
+            width: 241px;
+            box-shadow: -10px -10px 10px rgba(227, 237, 200, 0.5);
+            background: url('../img/btn/payBtnActive.png') left top / cover no-repeat        
+    &_name_btn
+        display: block
+        position: relative
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center
+        
+    

@@ -1,0 +1,40 @@
+
+.popup
+    display: none;
+    position: fixed;
+    padding-top: 5%
+    z-index: 3; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+    &_content
+        display: flex
+        flex-direction: column
+        padding: 20px
+        max-width: 938px
+        height: 699px
+        background-color: #F9F8EE
+        margin: auto
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.4);
+    &_header
+        display: block
+        align-self: flex-end
+        width: 38px
+        height: 38px
+        background: url('../icon/closeblue.png') center center/ cover no-repeat
+        transition: 0.5s all
+        cursor: pointer
+        &:hover
+           transform: scale(110%) 
+           background: url('../icon/closeblueActive.png') center center/ cover no-repeat
+    &_body
+        align-self: center
+        margin-top: 6px
+        width: 818px
+        height: 579px
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.4);        
+        
+

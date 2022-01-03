@@ -1,0 +1,99 @@
+.scene_item1
+    display: none
+    &_img
+        margin: 0 auto
+        width: 497px
+        height: 405px  
+        background: url('../img/Scene5.png') center center / 100% 100% no-repeat
+    &_descr
+        margin: 0 auto
+        margin-top: 60px
+        width: 796px
+        height: 264px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 44px;
+.scene
+    &_item2, &_item3 ,&_item4, &_item5
+        display: none 
+        margin-bottom: 100px
+    &_title
+        text-align: center
+        font-family: Jost;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 58px;
+    &_descr
+        margin-top: 20px
+        text-align: center
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+    &_subdescr
+        margin-top: 20px
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px;
+    &_img
+        margin: 0 auto
+        margin-top: 60px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 938.3px;
+        height: 329px;
+    &_img1
+        width: 404.3px;
+        height: 329px;
+        background: url('../img/sceneWomen.png') center center / 100% 100% no-repeat
+    &_img2
+        width: 414px;
+        height: 321.93px;
+        background: url('../img/sceneMen.png') center center / 100% 100% no-repeat
+    &_wrapperBtn
+        margin: 0 auto
+        position: relative
+        cursor: pointer
+        margin-top: 70px
+        margin-bottom: 100px
+        width: 408px
+        height: 80px
+        &:hover
+            .scene_btn
+                transition: 0.5s all
+                background-color: #F2E8D7
+                box-shadow: -10px -10px 10px rgba(242, 232, 215, 0.5)
+            .scene_shadow
+                transition: 0.5s all
+                opacity: 0
+    &_btn
+        position: relative
+        width: 408px
+        height: 80px
+        border: 1px solid #3F414E;
+        box-sizing: border-box;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center
+        padding: 20px
+        z-index: 2
+    
+    &_shadow
+        position: relative
+        top: -70px
+        left: 10px
+        width: 408px
+        height: 80px
+        background-color: #F2E8D7
+        z-index: 1
+
